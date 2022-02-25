@@ -1,0 +1,55 @@
+body{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+  font-family: sans-serif;
+  background:linear-gradient(to bottom , #555 , black);
+}
+
+
+.container{
+  display:flex;
+  flex-direction: column;
+  height:80%;
+  width:40%;
+  border:5px solid black;
+  border-radius: 15px;
+  overflow: hidden;
+  background:#CCC;
+  padding:20px;
+}
+
+.container>*{
+  width:100%;
+}
+
+.output-box{
+  height:90%;
+}
+
+.msg-box{
+  background:green;
+  height:10%;
+  display: flex;
+  justify-content: stretch;
+  align-items: stretch;
+}
+
+input{
+  width:80%;
+}
+
+button{
+  width:20%;
+  background:royalblue;
+  color:white;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  transition: .3s;
+}
+
+button:hover{
+  transform: scale(1.1);
+}
